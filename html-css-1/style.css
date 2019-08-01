@@ -146,6 +146,16 @@ body {
 
 }
 
+.bottom {
+    height: 250px;
+    width: 100vw;
+    margin: 30px;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+
+}
 .paragraph {
     height: 200px;
     width: 50vw;
@@ -161,18 +171,17 @@ body {
     width: 200px; 
 
     display: flex;
-    align-self: center;
+    /* align-self: center; */
     justify-content: space-around
 }
 
 .image {
     height: 150px;
     width: 300px;
-    background: blue;
     
 
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .footer {
